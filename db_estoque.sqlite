@@ -1,0 +1,18 @@
+PRAGMA foreign_keys = ON;
+create table lote (
+id_lote integer primary key autoincrement,
+id_produto integer references produto(id_produto),
+numero integer not null,
+    data_fabricacao date not null,
+    data_validade date not null,
+    quantidade integer);
+create table produto (
+id_produto integer primary key autoincrement,
+codigo_barras text not null,
+nome text not null,
+categoria text,
+quantidade integer,
+validade datetime,
+ativo boolean not null,
+    data_validade date not null,
+    data_cadastro data not null);
