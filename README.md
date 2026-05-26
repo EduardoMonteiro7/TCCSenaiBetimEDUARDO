@@ -1,18 +1,29 @@
-# guris-sTCC
-repository on git hub for the bros can get acesso e trabalhwm nessa porra pq i will not fazer tudo sozinho nessa bct obg amigos bjs
+# Sistema de controle logístico e estoque (TCC)
+Este repositório é dedicado ao desenvolvimento do Trabalho de Conclusão de Curso (TCC) do curso de Análise e Desenvolvimento de Sistemas (ADS) no Senai-MG.
+O software surge da demanda de uma empresa pela necessidade de armazenar, registrar e monitorar produtos em estoque, com foco especial no controle de datas de vencimento.
+O objetivo principal é transformar um processo manual em um sistema informatizado, tornando o gerenciamento mais prático e eficiente.
+----------------------------------------------------
+De acordo com o planejamento inicial, o sistema será dividido nos seguintes módulos:
+Armazenamento: Gestão do estoque e manutenção dos dados gerais de cada produto.
 
-1."a demanda do tcc parte da necessidade da empresa de armazenar, registrar e monitorar seus produtos em estoque e suas datas de vencimento, tornando todo esse role mais pratico usando de programas de computador para informatizar o processo como um todo."
+Monitoramento de Prazos: Controle automatizado das datas de fabricação e vencimento dos itens.
 
-2."Inicialmente a minha ideia era dividir as funções do codigo em: Armazenamento(o estoque e dados do produto em geral), monitoramento de datas de vencimento e fabricação, além de obviamente, permitir que o funcionario adicione mais produtos aos registros."
+Interface do Usuário: Funcionalidade que permite ao funcionário realizar o cadastro e a atualização de produtos nos registros.
+-----------------------------------------------------
+Linguagem de Programação: Java (100% do código)
+.
+Persistência de Dados: SQLite (utilizando o arquivo db_estoque.sqlite)
 
-{...}
+*MAS PODE VARIAR A MEDIDA QUE PROGREDIMOS COM O CURSO*
+-----------------------------------------------------
 
-Esse é o processo da formulação da parte prática do TCC do curso de ADS(análise e desenvolvimento de sistemas) no Senai-MG; se deu início no dia 15-03-2026(domingo) e ainda está em desenvolvimento.
 
-Integrantes: Erick Sousa, Arthur Araújo, Eduardo Gonçalvez, Isac..., Daniel...
+
+-----------------------------------------------------
+Integrantes: Erick Sousa, Arthur Araújo (ausente do projeto), Eduardo Gonçalvez, Isaac Augusto, Daniel Resende. 
 
 """"ESSE README VAI SER ALTERADO COM CTZ, N LEVAR NADA DITO AQUI COMO ALGO PERMANENTE"""" 
 
-Erick-suno-eng
+- Erick-suno-eng
 
 
