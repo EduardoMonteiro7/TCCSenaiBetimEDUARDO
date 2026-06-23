@@ -1,67 +1,26 @@
-# Bakery Inventory Management System
 
-Complete Java Swing desktop application for bakery inventory control with SQLite persistence.
 
-## Default Login
+
+## Login default
 
 - Username: `gerente`
 - Password: `12345678`
 
-Only one manager account can exist. The manager account is created automatically on first start and cannot be deleted.
+Só pode existir uma conta de administrador. A conta de administrador é criada automaticamente na primeira inicialização e não pode ser excluída.
 
-## Requirements
+## requisitos minimos 
 
-- Java 17 or newer
-- Maven 3.8 or newer
+- Java 17 ou mais novo
+- Maven 3.8 ou mais novo
 
-## Run
+## run
+The SQLite database é criado automaticamente
 
-From this folder:
 
-```bash
-mvn clean compile exec:java
-```
-
-Build a runnable JAR:
-
-```bash
-mvn clean package
-java -jar target/bakery-inventory-system-1.0.0.jar
-```
-
-The SQLite database is created automatically at:
-
-```text
-data/bakery_inventory.db
-```
-
-## Project Structure
-
-```text
-src/main/java/com/bakeryinventory
-  App.java
-  config/        Database connection and schema initialization
-  dao/           Database access classes
-  model/         Domain models
-  service/       Authentication, password hashing, inventory logic
-  ui/            Java Swing screens and dialogs
-  util/          Validation and UI helpers
-src/main/resources/db
-  schema.sql
-  sample_data.sql
-```
-
-## Sample Data
-
-The file `src/main/resources/db/sample_data.sql` contains test products and can be run against the generated database with any SQLite client.
 
 Example:
 
-```bash
-sqlite3 data/bakery_inventory.db < src/main/resources/db/sample_data.sql
-```
-
-## Main Features
+## mecanicas principais
 
 - Secure login with salted PBKDF2 password hashes.
 - Manager-only user creation.
