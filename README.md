@@ -10,15 +10,15 @@ Monitoramento de Prazos: Controle automatizado das datas de fabricação e venci
 
 Interface do Usuário: Funcionalidade que permite ao funcionário realizar o cadastro e a atualização de produtos nos registros.
 -----------------------------------------------------
-Linguagem de Programação: Java (100% do código)
-.
-Persistência de Dados: SQLite (utilizando o arquivo db_estoque.sqlite)
-
-*MAS PODE VARIAR A MEDIDA QUE PROGREDIMOS COM O CURSO*
+O sistema INFOSTOCK foi projetado de forma modular para garantir a facilidade de manutenção, sendo desenvolvido como um todo na linguagem Java. A estrutura do projeto
+está organizada para separar as responsabilidades de negócio da persistência de dados, utilizando o SQLite como motor de banco de dados.
+A lógica do sistema está dividida nos seguintes pilares principais:
+- Módulo de Armazenamento: Responsável pela gestão do estoque e pela manutenção da integridade dos dados gerais de cada produto.
+- Módulo de Monitoramento de Prazos: Contém a lógica de negócio automatizada para o controle rigoroso das datas de fabricação e de vencimento dos itens cadastrados.
+- Interface do Usuário: Camada que fornece as funcionalidades necessárias para que o funcionário interaja com o sistema, permitindo o cadastro de novos registros e a atualização de informações existentes.
+- Persistência (Database): O arquivo db_estoque.sqlite centraliza o armazenamento persistente de todas as informações operacionais do software.
+- Atualmente, o código-fonte principal encontra-se estruturado dentro do diretório TCC_INFOSTOCK/TCC_Padaria, refletindo a aplicação prática do sistema no contexto de gestão logística.
 -----------------------------------------------------
-
-
-
 -----------------------------------------------------
 Integrantes: Erick Sousa, Arthur Araújo (ausente do projeto), Eduardo Gonçalvez, Isaac Augusto, Daniel Resende. 
 
